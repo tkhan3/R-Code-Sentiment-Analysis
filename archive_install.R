@@ -1,0 +1,5 @@
+install.packages("stringr")
+install.packages("devtools")
+require(devtools)
+require(stringr)
+install_url("http://cran.r-project.org/src/contrib/Archive/sentiment/sentiment_0.2.tar.gz")
